@@ -15,6 +15,7 @@
 		40403CD32B7FC28500355492 /* Data+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40403CD22B7FC28500355492 /* Data+extension.swift */; };
 		40403CD52B7FC2A900355492 /* Logger+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40403CD42B7FC2A900355492 /* Logger+extension.swift */; };
 		40403CD72B7FC3DD00355492 /* Remote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40403CD62B7FC3DD00355492 /* Remote.swift */; };
+		40403CD92B7FC43600355492 /* RemoteURLKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40403CD82B7FC43600355492 /* RemoteURLKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		40403CD22B7FC28500355492 /* Data+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+extension.swift"; sourceTree = "<group>"; };
 		40403CD42B7FC2A900355492 /* Logger+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Logger+extension.swift"; sourceTree = "<group>"; };
 		40403CD62B7FC3DD00355492 /* Remote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remote.swift; sourceTree = "<group>"; };
+		40403CD82B7FC43600355492 /* RemoteURLKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteURLKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				40403CD22B7FC28500355492 /* Data+extension.swift */,
 				40403CD42B7FC2A900355492 /* Logger+extension.swift */,
 				40403CD62B7FC3DD00355492 /* Remote.swift */,
+				40403CD82B7FC43600355492 /* RemoteURLKey.swift */,
 			);
 			path = PhotoLoading;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				40403CD12B7FC23D00355492 /* Photo.swift in Sources */,
 				40403CD52B7FC2A900355492 /* Logger+extension.swift in Sources */,
 				40403CD32B7FC28500355492 /* Data+extension.swift in Sources */,
+				40403CD92B7FC43600355492 /* RemoteURLKey.swift in Sources */,
 				40403CC52B7FC19A00355492 /* ContentView.swift in Sources */,
 				40403CC32B7FC19A00355492 /* PhotoLoadingApp.swift in Sources */,
 				40403CD72B7FC3DD00355492 /* Remote.swift in Sources */,
