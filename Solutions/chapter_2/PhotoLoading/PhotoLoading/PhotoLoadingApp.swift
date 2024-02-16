@@ -6,7 +6,7 @@ struct PhotoLoadingApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AuthorNamesListView()
         }
         .environment(\.remoteURL, remoteURL)
     }
