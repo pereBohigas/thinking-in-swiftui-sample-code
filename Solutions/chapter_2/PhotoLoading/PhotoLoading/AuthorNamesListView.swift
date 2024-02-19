@@ -11,7 +11,10 @@ struct AuthorNamesListView: View {
                 ScrollView {
                     ForEach(photos) { photo in
                         NavigationLink {
-                            PhotoView(downloadURL: photo.downloadURL)
+                            PhotoView(
+                                downloadURL: photo.downloadURL,
+                                size: .init(width: photo.width, height: photo.height)
+                            )
                         } label: {
                             Label(photo.author, systemImage: "person.crop.circle")
                                 .frame(maxWidth: .infinity, alignment: .leading)

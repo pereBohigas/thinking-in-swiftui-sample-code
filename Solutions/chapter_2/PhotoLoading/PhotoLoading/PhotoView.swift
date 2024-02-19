@@ -2,6 +2,7 @@ import SwiftUI
 
 struct PhotoView: View {
     let downloadURL: URL
+    let size: CGSize
 
     var body: some View {
         AsyncImage(url: downloadURL) { image in
@@ -11,13 +12,14 @@ struct PhotoView: View {
         } placeholder: {
             Rectangle()
                 .fill(.placeholder)
-                .frame(width: 600, height: 300)
+                .aspectRatio(size, contentMode: .fit)
         }
     }
 }
 
 #Preview {
+    let size: CGSize = .init(width: 600, height: 300)
     let url: URL = .init(string: "https://")!
 
-    return PhotoView(downloadURL: url)
+    return PhotoView(downloadURL: url, size: size)
 }
