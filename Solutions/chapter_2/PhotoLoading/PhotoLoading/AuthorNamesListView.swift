@@ -6,12 +6,16 @@ struct AuthorNamesListView: View {
     @State var photos: [Photo]?
 
     var body: some View {
-        Group {
+        NavigationView {
             if let photos {
                 ScrollView {
                     ForEach(photos) { photo in
-                        Label(photo.author, systemImage: "person.crop.circle")
-                            .frame(maxWidth: .infinity, alignment: .leading)
+                        NavigationLink {
+                            PhotoView(downloadURL: photo.downloadURL)
+                        } label: {
+                            Label(photo.author, systemImage: "person.crop.circle")
+                                .frame(maxWidth: .infinity, alignment: .leading)
+                        }
                     }
                 }
                 .padding()

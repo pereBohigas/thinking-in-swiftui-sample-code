@@ -16,6 +16,7 @@
 		40403CD52B7FC2A900355492 /* Logger+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40403CD42B7FC2A900355492 /* Logger+extension.swift */; };
 		40403CD72B7FC3DD00355492 /* Remote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40403CD62B7FC3DD00355492 /* Remote.swift */; };
 		40403CD92B7FC43600355492 /* RemoteURLKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40403CD82B7FC43600355492 /* RemoteURLKey.swift */; };
+		40EC238F2B83497400CFACF9 /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EC238E2B83497400CFACF9 /* PhotoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		40403CD42B7FC2A900355492 /* Logger+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Logger+extension.swift"; sourceTree = "<group>"; };
 		40403CD62B7FC3DD00355492 /* Remote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remote.swift; sourceTree = "<group>"; };
 		40403CD82B7FC43600355492 /* RemoteURLKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteURLKey.swift; sourceTree = "<group>"; };
+		40EC238E2B83497400CFACF9 /* PhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			children = (
 				40403CC22B7FC19A00355492 /* PhotoLoadingApp.swift */,
 				40403CC42B7FC19A00355492 /* AuthorNamesListView.swift */,
+				40EC238E2B83497400CFACF9 /* PhotoView.swift */,
 				40403CC62B7FC19B00355492 /* Assets.xcassets */,
 				40403CC82B7FC19B00355492 /* Preview Content */,
 				40403CD02B7FC23D00355492 /* Photo.swift */,
@@ -159,6 +162,7 @@
 				40403CC52B7FC19A00355492 /* AuthorNamesListView.swift in Sources */,
 				40403CC32B7FC19A00355492 /* PhotoLoadingApp.swift in Sources */,
 				40403CD72B7FC3DD00355492 /* Remote.swift in Sources */,
+				40EC238F2B83497400CFACF9 /* PhotoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
