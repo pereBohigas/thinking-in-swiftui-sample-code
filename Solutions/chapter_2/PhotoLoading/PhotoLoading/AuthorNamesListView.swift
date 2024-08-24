@@ -25,19 +25,19 @@ struct AuthorNamesListView: View {
             } else {
                 ProgressView("Loading")
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    .task {
+                        guard let remoteURL else { return }
+
+                        let remote: Remote<[Photo]> = .init(url: remoteURL)
+
+                        guard let photos: [Photo] = await remote.load() else {
+                            self.photos = []
+                            return
+                        }
+
+                        self.photos = photos
+                    }
             }
-        }
-        .task {
-            guard let remoteURL else { return }
-
-            let remote: Remote<[Photo]> = .init(url: remoteURL)
-
-            guard let photos: [Photo] = await remote.load() else {
-                self.photos = []
-                return
-            }
-
-            self.photos = photos
         }
     }
 }
